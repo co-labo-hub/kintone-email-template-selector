@@ -1,0 +1,49 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "js/desktop.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/desktop.css"
+    ]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/kintone-config-helper.js",
+      "js/config.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": [
+      "templateAppId",
+      "templateNameFieldCode",
+      "emailFieldCode"
+    ]
+  },
+  "name": {
+    "ja": "メールテンプレート",
+    "en": "Email template",
+    "zh": "邮件模板"
+  },
+  "description": {
+    "ja": "メールテンプレート",
+    "en": "Email template",
+    "zh": "邮件模板"
+  },
+  "mobile": {
+    "js": [
+      "js/desktop.js"
+    ],
+    "css": [
+      "css/mobile.css"
+    ]
+  }
+}
