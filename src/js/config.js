@@ -20,7 +20,7 @@
 
 	const l = kintone.getLoginUser().language;
 
-	document.querySelector('section.settings').innerHTML = /* html */`
+	document.getElementById('template-mailto-settings').innerHTML = /* html */`
 		<h1 class="settings-heading">
 			${{
 				ja: 'メールテンプレート',
