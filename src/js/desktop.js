@@ -48,7 +48,7 @@
 								if (v instanceof(Object)) v = v.name || v.value;
 								body = body.replace(new RegExp(`{{\\s*${fieldCode}\\s*}}`, 'g'), v);
 							});
-							body = body.replace(/[^\r]\n/g, "\r\n");
+							body = body.replace(/\n/g, "\r\n").replace(/\r+\n/g, "\r\n");
 							el.push(`body=${encodeURIComponent(body)}`);
 						}
 						templates.push({name: t[config.templateNameFieldCode].value, params: el});
