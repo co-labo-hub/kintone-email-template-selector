@@ -64,9 +64,15 @@
 							id="${id}"
 							style="border: solid 1px silver;"
 						>
+							<span
+								class="material-symbols-outlined"
+								style="display: inline-flex; vertical-align: middle; line-height: 2em"
+							>
+								drafts
+							</span>
 							<a
 								onclick="document.getElementById('${id}').close()"
-								style="float: right; font-size: 2em; color: gray"
+								style="float: right; color: gray; font-size: 2em"
 							>
 								×
 							</a>
