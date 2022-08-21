@@ -1,5 +1,5 @@
 {
-  "name": "kintone-template-mailto",
+  "name": "kintone-email-template-selector",
   "version": "0.1.0",
   "scripts": {
     "start": "node scripts/npm-start.js",
